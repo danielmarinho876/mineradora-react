@@ -1,0 +1,105 @@
+body{
+  background-color:burlywood
+}
+
+.inicio {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.inicio h1 {
+  color: darkblue;
+  font-size: 40px;
+}
+
+.inicio p {
+  font-size: 20px;
+  color: gray;
+}
+
+
+.menu {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #333;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.menu-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0077cc;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.menu-btn:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+.menu-btn:active {
+  transform: translateY(0);
+}
+
+
+.funcionario,
+.cidade,
+.servico,
+.equipamentos {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form-box {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background: #f9f9f9;
+}
+
+.input{
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #0077cc;
+}
+
+.btn {
+  padding: 10px 10px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #005fa3;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  padding: 10px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+
