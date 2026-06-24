@@ -8,6 +8,7 @@ export default function Menu({ setPagina }) {
         Início
       </button>
 
+
       <button className="menu-btn" onClick={() => setPagina("equipamentos")}>
         Equipamentos
       </button>
